@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c0e7c2fdcc1594a860d69ef632a8b3, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  itemName: Pistol
+  damage: 25
+  threshold: 0.6
+  maxAmmo: 30
+  maxLoadedAmmo: 10
+  reloadThreshold: 0.8
+  fire: {fileID: 8300000, guid: 6f21b4659925e224cb17584efc7ba601, type: 3}
+  reload: {fileID: 8300000, guid: 3995db1d9551ce84b817bf0dae31928f, type: 3}
+  gunIcon: {fileID: 2258435179232560843, guid: 36987911bc800964ebe5a82bae41c9a9, type: 3}
+  offset: 80
+  auto: 0
+  recoilRotation: 10
